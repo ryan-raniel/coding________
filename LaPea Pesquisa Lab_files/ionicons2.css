@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/ionicons2.eot?mh0ss8');
+  src:  url('../fonts/ionicons2.eot?mh0ss8#iefix') format('embedded-opentype'),
+    url('../fonts/ionicons2.ttf?mh0ss8') format('truetype'),
+    url('../fonts/ionicons2.woff?mh0ss8') format('woff'),
+    url('../fonts/ionicons2.svg?mh0ss8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lattes-square:before {
+  content: "\e903";
+}
+.icon-lattes-square-outline:before {
+  content: "\e904";
+}
+.icon-lattes-circle-outline:before {
+  content: "\e901";
+}
+.icon-lattes-circle:before {
+  content: "\e909";
+}
+.icon-lattes:before {
+  content: "\e928";
+}
+.icon-latarc:before {
+  content: "\e902";
+}
+.icon-clock-circle-outline:before {
+  content: "\e93a";
+}
+.icon-clock-circle:before {
+  content: "\e93b";
+}
+.icon-facebook-circle-outline:before {
+  content: "\e915";
+}
+.icon-facebook-circle:before {
+  content: "\e916";
+}
+.icon-facebook-square:before {
+  content: "\e917";
+}
+.icon-facebook-square-outline:before {
+  content: "\e918";
+}
+.icon-instagram-square:before {
+  content: "\e919";
+}
+.icon-instagram-square-outline:before {
+  content: "\e91a";
+}
+.icon-instagram-circle:before {
+  content: "\e91b";
+}
+.icon-instagram-circle-outline:before {
+  content: "\e91c";
+}
+.icon-linkedin-square:before {
+  content: "\e91d";
+}
+.icon-linkedin-square-outline:before {
+  content: "\e91e";
+}
+.icon-linkedin-circle-outline:before {
+  content: "\e91f";
+}
+.icon-linkedin-circle:before {
+  content: "\e920";
+}
+.icon-github-square-outiline:before {
+  content: "\e921";
+}
+.icon-github-square:before {
+  content: "\e922";
+}
+.icon-github-circle:before {
+  content: "\e923";
+}
+.icon-github-circle-outline:before {
+  content: "\e924";
+}
+.icon-phone-square:before {
+  content: "\e925";
+}
+.icon-phone-square-outline:before {
+  content: "\e926";
+}
+.icon-phone-circle:before {
+  content: "\e927";
+}
+.icon-phone-circle-outline:before {
+  content: "\e900";
+}
+.icon-email-square-outline:before {
+  content: "\e929";
+}
+.icon-email-square:before {
+  content: "\e92a";
+}
+.icon-email-circle:before {
+  content: "\e92b";
+}
+.icon-email-circle-outline:before {
+  content: "\e92c";
+}
+.icon-email2-outline:before {
+  content: "\e92d";
+}
+.icon-email3-outline:before {
+  content: "\e92e";
+}
