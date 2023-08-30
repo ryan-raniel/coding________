@@ -59,7 +59,7 @@
                             </li>
                             <li>
                                 <a id="slide-text" href="contatos.html" title="Contatos">Contatos</a>
-                            </li>
+                             </li>
                         </ul>
                     </div>
                 </div>
@@ -67,78 +67,102 @@
             <div style="width: 100%;" class="session-background-color">
                 <ol style="margin: 0px;" class="sabbi-breadcrumb breadcrumb">
                     <li><a href="index.html">Início</a></li>
-                    <li class="active">Equipe</li>
+                    <li class="active">Contatos</li>
                 </ol>
             </div>
             <!-- /.navbar -->
         </header>
-    
-        <main class="sabbi-page-wrap">
-            <div style="width: 80%;" class="container">
-                <section class="page-appellation">
-                    <h2 class="page-title lil-line roboto-condensed-font">Pesquisadores</h2>               
-                    <div class="card-container-left">
-                        <div class="card-primary card-profile">
-                            <div class="text-center">
-                                <img class="card-primary-circular-image " src="imagens/pesq/1.png" alt="sabbi-profile-pic">
-                                <p class="card-primary-title"><a href="http://lattes.cnpq.br/5863705420808941">Rodrigo Ronner Tertulino da Silva</a></p>
-                                <div class="card-primary-text">
-                                    <p>Disciplinas ministradas
-                                        Arquitetura de redes de computadores</p>
-                                    <p>Coordenador de Cursos de Informática.</p>
+        
+        <main style="margin-top: 2px; position: relative;" class="sabbi-page-wrap">
+        <div style="width: 80%;" class="container">
+            <div class="row container-contact">
+                <div class="col-sm-8">
+                    <div class="card-primary card-contact shadow-border">
+                        <div class="card-body">
+                            <h3 class="text-center">E-mail</h3>
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <label for="futureName">Seu nome</label>
+                                    <input name="name" type="text" class="form-control" placeholder="Por favor, digite seu nome" required="">
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="card-primary card-profile">
-                            <div class="text-center">
-                                <img class="card-primary-circular-image " src="imagens/pesq/2.png" alt="sabbi-profile-pic">
-                                <p class="card-primary-title"><a href="http://lattes.cnpq.br/8139557309724726">Clayton Maciel Costa</a></p>
-                                <div class="card-primary-text">
-                                    <p>Professor de Sistemas de Informações IFRN - Campus Mossoró</p>
-                                    <p>Vínculo: Servidor Público</p>
+                                <div class="form-group">
+                                    <label for="InputEmail">Seu email</label>
+                                    <input name="email" type="email" class="form-control" placeholder="Por favor, digite seu email" required="">
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="card-primary card-profile">
-                            <div class="text-center">
-                                <img class="card-primary-circular-image " src="imagens/pesq/3.png" alt="sabbi-profile-pic">
-                                <p class="card-primary-title"><a href="http://lattes.cnpq.br/8416423647851683">Carla Katarina de Monteiro Marques </a></p>
-                                <div class="card-primary-text">
-                                    <p> Enquadramento Funcional: PROFESSOR ENS BASICO TECN TECNOLOGICO (CMEBT)</p>
-                                    <p> Vínculo: Servidor Público</p>
+                                <div class="form-group">
+                                    <label for="Inputphone">Seu telefone</label>
+                                    <input name="contact_num" type="tel" class="form-control" placeholder="Por favor, digite seu número de telefone" required="">
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="card-primary card-profile">
-                            <div class="text-center">
-                                <img class="card-primary-circular-image " src="imagens/pesq/4.png" alt="sabbi-profile-pic">
-                                <p class="card-primary-title"><a href="http://lattes.cnpq.br/0922364480924489"> Helio Henrique Cunha Pinheiro</a></p>
-                                <div class="card-primary-text">
-                                    <p> Presidente da Comissão de elaboração do PPC do curso de Pós-Graduação stricto sensu em Educação Profissional e Tecnológica...</p>
-                                    <p> Vínculo: Servidor Público</p>
+                                <div class="form-group">
+                                    <label for="InputMessage">Sua mensagem</label>
+                                    <textarea name="message" class="form-control" rows="10" placeholder="Digite sua mensagem" required="" style="resize: vertical;"></textarea>
                                 </div>
-                            </div>
+            
+                                <div class="form-group">
+                                    <div id="form_success"></div>
+                                    <div id="form_errors"></div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <button type="submit" class="btn btn-primary btn-block">Enviar mensagem</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="card-primary card-profile">
-                            <div class="text-center">
-                                <img class="card-primary-circular-image " src="imagens/pesq/5.png" alt="sabbi-profile-pic">
-                                <p class="card-primary-title"><a href="http://lattes.cnpq.br/6437383890881181"> Jonathan Paulo Pinheiro Pereira</a></p>
-                                <div class="card-primary-text">
-                                    <p> Enquadramento Funcional: Professor da Educação Bás. Téc. e Tecnológic</p>
-                                    <p> Vínculo: Servidor Público</p>
+                <div class="col-sm-4">
+                    <div class="card-primary card-contact shadow-border">
+                        <div class="card-body">
+                            <div class="row center">
+                                <div class="col-sm-2">
+                                    <span class="icon-phone-circle-outline dark-green-icon"></span>
+                                </div>
+                                <div class="col-sm-10">
+                                    <p class="card-contact-text">Contate-nos diretamente</p>
+                                    <h3 class="card-contact-title">+55 (84) 4005-4120</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+            
+                    <div class="card-primary card-contact shadow-border">
+                        <div class="card-body">
+                            <div class="row center">
+                                <div class="col-sm-2">
+                                    <span class="icon-email-circle-outline dark-green-icon"></span>
+                                </div>
+                                <div class="col-sm-10">
+                                    <p class="card-contact-text">Contate-nos via E-mail</p>
+                                    <h3 class="card-contact-title">lapea@ifrn.edu.br</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="card-primary card-contact shadow-border">
+                        <div class="card-body">
+                            <div class="row center">
+                                <div class="col-sm-2">
+                                    <span class="ion-location dark-green-icon"></span>
+                                </div>
+                                <div class="col-sm-10">
+                                    <p class="card-contact-text">Endereço</p>
+                                    <h3 class="card-contact-title">
+                                        Rua Raimundo Firmino de Oliveira, <br>
+                                        nº 400 - Conjunto Ulrick Graff  <br> 
+                                        Mossoró, Rio Grande do Norte, Brasil
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </main>
-
-        <footer class="section-footer mt_25 white-text" id="dark-gray-background">
+        </div>
+    </main>
+    <footer class="section-footer mt_25 white-text" id="dark-gray-background">
         <div class="container row center text-center" id="session">
             <div class="col-sm-3">
                 <ion-icon name="location-outline"></ion-icon>
