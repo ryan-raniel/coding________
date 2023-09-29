@@ -128,7 +128,7 @@ html {
     font-size: 14px; } }
 
 body {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-family: roboto-condensed !important;
   color: #000000;
   background-color: #ffffff;
@@ -518,10 +518,10 @@ body .mb_100 {
 
 /* title style and size*/
 .ht-5 {
-  font-size: 14px; }
+  font-size: 16px; }
 
 .ht-4 {
-  font-size: 16px; }
+  font-size: 21px; }
 
 .fw-mid {
   font-weight: 600; }
