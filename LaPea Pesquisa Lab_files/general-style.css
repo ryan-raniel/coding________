@@ -81,6 +81,15 @@
     text-shadow: 0.7px 0.7px black;
 }
 
+.card-primary-profile {
+    background:#999 !important;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 3rem 10px;
+    box-sizing: border-box;
+    text-shadow: 0.7px 0.7px black;
+}
+
 .card-primary-title {
     font-family: roboto-condensed;
     font-weight: bold;
