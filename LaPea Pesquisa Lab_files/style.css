@@ -1607,8 +1607,12 @@ a.link-with-icon i.fa {
 /* card design */
 .icon-card {
   background-color: #EDF2F6;
-  padding: 35px 20px;
-  border-radius: 4px; }
+  padding: 15px 15px;
+  border-radius: 4px;
+  width: 180px;
+  height: 220px;
+  margin: auto;
+  margin-bottom: 20px; }
 
 /* style profile */
 .profile-card {
