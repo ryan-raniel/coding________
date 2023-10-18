@@ -266,6 +266,9 @@
 #session {
     width:100%;
 }
+#card-session {
+    width:75%;
+}
 
 .card-session {
     min-width: 350px;
