@@ -130,11 +130,17 @@ html {
 body {
   font-size: 18px;
   font-family: roboto-condensed !important;
-  color: #000000;
+  color: rgba(255,255,255,.15);
+  text-shadow: 1px 0.7px black;
   background-color: #ffffff;
   line-height: 1.788;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.alink {
+  color: rgba(30, 24, 24, 0.016);
+  text-shadow: 1px 0.7px black;
+}
 
 footer {
   font-size: 14px;
@@ -149,8 +155,10 @@ h2 {
   font-size: 28px; }
 
 a {
-  color: #000;
-  text-decoration: none; }
+  color: #ffffffe4;
+  text-decoration: none; 
+  text-shadow: 1px 0.7px black;  
+}
 
 a:hover {
   color: #6ab04c;
@@ -2202,4 +2210,8 @@ a.link-with-icon i.fa {
   font-style: italic; }
 
 .powredby, .copyright {
-  font-size: 12px; }
+  font-size: 12px;
+  color: rgba(118, 132, 118, 0.999);
+  text-shadow: 1px 0.5px black;
+  text-align: center;
+}

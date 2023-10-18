@@ -1,6 +1,6 @@
 (function(){/*
 
- Copyright The Closure Library Authors.
+  The Closure Library Authors.
  SPDX-License-Identifier: Apache-2.0
 */
 'use strict';var l=function(){var a=h,b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},m=this||self,n=/^[\w+/_-]+[=]{0,2}$/,p=null,q=function(a){return(a=a.querySelector&&a.querySelector("script[nonce]"))&&(a=a.nonce||a.getAttribute("nonce"))&&n.test(a)?a:""},r=function(a,b){function e(){}e.prototype=b.prototype;a.i=b.prototype;a.prototype=new e;a.prototype.constructor=a;a.h=function(c,g,k){for(var f=Array(arguments.length-2),d=2;d<arguments.length;d++)f[d-2]=arguments[d];
