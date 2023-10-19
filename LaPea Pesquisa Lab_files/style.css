@@ -2226,3 +2226,7 @@ a.link-with-icon i.fa {
   height: auto;
   font-size: 14px;
 }
+
+footer > div {
+  width: 108%;
+}
