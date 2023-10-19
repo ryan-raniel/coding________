@@ -2219,3 +2219,10 @@ a.link-with-icon i.fa {
   text-shadow: 1px 0.5px black;
   text-align: center;
 }
+
+#select1 {
+  color: #000;
+  width: 70%;
+  height: auto;
+  font-size: 14px;
+}

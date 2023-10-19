@@ -25,7 +25,7 @@
     <link href="./LaPea Pesquisa Lab_files/style.css" rel="stylesheet">
     <script src="./LaPea Pesquisa Lab_files/analytics.js.baixados"></script><script src="./LaPea Pesquisa Lab_files/modernizr-2.8.3.min.js.baixados"></script>
 </head>
-<body class="auth-theme-rashmore roboto-condensed-font">
+<body style="background-color: #fcf8e3" class="auth-theme-rashmore roboto-condensed-font">
     <header class="sabbi-site-head">
         <!-- .navbar -->
         <nav style="margin: auto;" class="navbar navbar-kawsa dark-green-background" role="navigation"> 
@@ -48,21 +48,26 @@
                             <li class="active">
                                 <a id="slide-text" href="index.html" title="Início">Início</a>
                             </li>
+                            
                             <li>
                                 <a id="slide-text" href="pesquisa.html" title="Linhas de pesquisas">Linhas de pesquisas</a>
                             </li>
                             <li>
-                                <a id="slide-text" href="equipe.html" title="Equipe">Equipe</a>
+                                <a id="slide-text" href="servicos.html" title="Serviços">Serviços</a>
                             </li>
                             <li>
                                 <a id="slide-text" href="projetos.html" title="Projetos">Projetos</a>
+                            </li>
+                            <li>
+                                <a id="slide-text" href="equipe.html" title="Equipe">Equipe</a>
                             </li>
                             <li>
                                 <a id="slide-text" href="contatos.html" title="Contatos">Contatos</a>
                             </li>
                         </ul>
                     </div>
-            
+                </div>
+            </div>
 	    </nav>
         <!-- /.navbar -->
     </header>
@@ -84,7 +89,7 @@
                     <div class="col-md-2">
                         <div class="icon-card text-center session-background-color shadow-border">
                             <figure class="icon-card-limn">
-                                <i class="ion-heart"></i>
+                                <i class="ion-code-working"></i>
                             </figure>
                             <h3 class="card-title">Desenvolvimento de sistemas</h3>
                         </div><!-- /.icon-card -->
@@ -93,7 +98,7 @@
                     <div class="col-md-2">
                         <div class="icon-card text-center session-background-color shadow-border">
                             <figure class="icon-card-limn">
-                                <i class="ion-network"></i>
+                                <i class="ion-ios-cloud"></i>
                             </figure>
                             <h3 class="card-title">Implantação de redes cabeadas e Wi-Fi</h3>
                         </div><!-- /.icon-card -->
@@ -101,7 +106,7 @@
                     <div class="col-md-2">
                         <div class="icon-card text-center session-background-color shadow-border">
                             <figure class="icon-card-limn">
-                                <i class="ion-ios-cloud"></i>
+                                <i class="ion-network"></i>
                             </figure>
                             <h3 class="card-title">Projetos de redes FTTH</h3>
                         </div><!-- /.icon-card -->
@@ -109,7 +114,7 @@
                     <div class="col-md-2">
                         <div class="icon-card text-center session-background-color shadow-border">
                             <figure class="icon-card-limn">
-                                <i class="ion-lock-combination"></i>
+                                <i class="ion-ios-printer"></i>
                             </figure>
                             <h3 class="card-title">Impressão 3D</h3>
                         </div><!-- /.icon-card -->
@@ -117,7 +122,7 @@
                     <div class="col-md-2">
                         <div class="icon-card text-center session-background-color shadow-border">
                             <figure class="icon-card-limn">
-                                <i class="ion-stats-bars"></i>
+                                <i class="ion-android-checkbox-outline"></i>
                             </figure>
                             <h3 class="card-title">Criação de soluções com Arduino</h3>
                         </div><!-- /.icon-card -->
@@ -134,7 +139,7 @@
                     <div class="col-md-2">
                         <div class="icon-card text-center session-background-color shadow-border">
                             <figure class="icon-card-limn">
-                                <i class="ion-laptop"></i>
+                                <i class="ion-ios-printer-outline"></i>
                             </figure>
                             <h3 class="card-title">Prototipagem de placas de circuito impresso</h3>
                         </div><!-- /.icon-card -->
@@ -163,24 +168,25 @@
                                     <input name="contact_num" type="tel" class="form-control" placeholder="Por favor, digite seu número de telefone" required="">
                                 </div>
                                 <div class="form-group">
-                                        <div class="mb-3">
-                                        <label for="disabledSelect" class="form-label">Tipo de serviço:</label>
-                                        <select id="disabledSelect" class="form-select">
-                                            <option>Desenvolvimento de sistemas</option>
-                                            <option>Implantação de redes cabeadas e Wi-Fi</option>
-                                            <option>Projetos de redes FTTH</option>
-                                            <option>Impressão 3D</option>
-                                            <option>Criação de soluções com Arduino</option>
-                                            <option>Treinamentos em cloud service, IA, Redes de Computadores/Datacom e 5G</option>
-                                            <option>Prototipagem de placas de circuito impresso</option>
-                                        </select>
+                                    <div class="offcanvas-body">
+                                        <label for="Inputphone">Tipo de Serviço:</label>
+                                            <div class="form-floating">
+                                                <select  id="select1" class="form-select">
+                                                    <option>*selecione uma das opçôes abaixo*</option>
+                                                    <option>Desenvolvimento de sistemas</option>
+                                                    <option>Implantação de redes cabeadas e Wi-Fi</option>
+                                                    <option>Projetos de redes FTTH</option>
+                                                    <option>Impressão 3D</option>
+                                                    <option>Criação de soluções com Arduino</option>
+                                                    <option>Treinamentos em cloud service, IA, Redes de Computadores/Datacom e 5G</option>
+                                                    <option>Prototipagem de placas de circuito impresso</option>
+                                            </select>
                                         </div>
-                                </div>
+                                    </div>
                                 <div class="form-group">
                                     <label for="InputMessage">Descrição</label>
                                     <textarea name="message" class="form-control" rows="10" placeholder="Digite sua mensagem" required="" style="resize: vertical;"></textarea>
                                 </div>
-            
                                 <div class="form-group">
                                     <div id="form_success"></div>
                                     <div id="form_errors"></div>
