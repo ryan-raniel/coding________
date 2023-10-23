@@ -2227,6 +2227,12 @@ a.link-with-icon i.fa {
   font-size: 14px;
 }
 
-footer > div {
-  width: 108%;
+@media (max-width: 450px) {
+  nav > div #navbar {
+    width: 113%;
+    background-color: rgb(47, 53, 66) ;
+  }
+  footer > #session {
+    width: 109%;
+  }
 }
