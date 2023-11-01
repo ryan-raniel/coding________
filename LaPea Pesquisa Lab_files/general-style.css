@@ -227,11 +227,16 @@
     min-height: 450px;
 }
 
+
 .slide-image {
     width:100%;
-    min-height: 450px;
-    background: url(../imagens/backgrounds/cover.jpeg);
-    background-size: cover;   
+    min-height: 140px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../imagens/backgrounds/6209939_3213299.svg);
+    background-position: center;
+    background-size: cover;
+       
 }
 
 .profile-image {
