@@ -1271,7 +1271,7 @@ body .mb_100 {
   font-size: 30px;
   font-size: 2.14286rem;
   text-align: center;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   border: 1px solid #6ab04c;
   line-height: 55px;
   display: block;
@@ -1306,7 +1306,7 @@ a.link-with-icon i.fa {
 
 .oli {
   font-family: roboto-condensed !important;
-  speak: none;
+  /*speak: none;*/
   font-weight: 400;
   font-variant: normal;
   font-style: normal;
